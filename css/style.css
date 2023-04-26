@@ -50,3 +50,67 @@ table {
 
 
 /* Write your css below here */
+
+html {
+	box-sizing: border-box;
+	background-color: #f7f7f7;
+	color: #333;
+}
+
+li {
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #947b7b;
+	padding: 5px;
+}
+
+a:hover {
+	background-color: aqua;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	font-family: Roboto, sans-serif;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+div.main {
+	width: 800px;
+	margin: auto;
+	padding: 10px;
+	text-align: justify;
+}
+
+div.side {
+	width: 300px;
+	background-color: aqua;
+	float: right;
+	font-family: Lato, sans-serif;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+footer {
+	clear: right;
+	background-color: lightgray;
+	color: black;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	height: 7vh;
+	display: flex;
+	flex-direction: column;
+}
+
+footer span {
+	margin-bottom: 10px;
+}
