@@ -25,6 +25,10 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	
+	/* I had to add body style as seen below because of the duplicate selector warning of the npm lint */
+	background-color: #f7f7f7;
+	color: #333;
 }
 
 ol, ul {
@@ -51,10 +55,9 @@ table {
 
 /* Write your css below here */
 
-html {
+* {
 	box-sizing: border-box;
-	background-color: #f7f7f7;
-	color: #333;
+
 }
 
 li {
@@ -90,7 +93,7 @@ div.main {
 	text-align: justify;
 }
 
-div.side {
+.container .side {
 	width: 300px;
 	background-color: aqua;
 	float: right;
@@ -106,7 +109,7 @@ footer {
 	width: 100%;
 	text-align: center;
 	padding: 10px;
-	height: 7vh;
+	height: 10%;
 	display: flex;
 	flex-direction: column;
 }
