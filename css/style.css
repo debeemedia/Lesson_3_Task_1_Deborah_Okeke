@@ -25,6 +25,10 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	
+	/* I had to add body style as seen below because of the duplicate selector warning of the npm lint */
+	background-color: #f7f7f7;
+	color: #333;
 }
 
 ol, ul {
@@ -50,3 +54,91 @@ table {
 
 
 /* Write your css below here */
+
+* {
+	box-sizing: border-box;
+
+}
+
+li {
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #947b7b;
+	padding: 5px;
+}
+
+a:hover {
+	background-color: aqua;
+}
+
+h1 {
+	color: black;
+	font-family: Montserrat, sans-serif;
+}
+
+h2 {
+	color: #181818;
+	font-family: Lato, sans-serif;
+}
+
+h3 {
+	color: #1d1d1d;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+	color: #343131;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h5 {
+	color: #464545;
+	font-family: Roboto, sans-serif;
+}
+
+h6 {
+	color: #070101;
+	font-family: Raleway, sans-serif;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+div.main {
+	width: 800px;
+	margin: auto;
+	padding: 10px;
+	text-align: justify;
+}
+
+.container .side {
+	width: 300px;
+	background-color: aqua;
+	float: right;
+	font-family: Lato, sans-serif;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+footer {
+	clear: right;
+	background-color: lightgray;
+	color: black;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	height: 10%;
+	display: flex;
+	flex-direction: column;
+}
+
+footer span {
+	margin-bottom: 10px;
+}
