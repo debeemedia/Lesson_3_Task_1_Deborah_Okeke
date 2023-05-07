@@ -74,9 +74,34 @@ a:hover {
 	background-color: aqua;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
 	color: black;
+	font-family: Montserrat, sans-serif;
+}
+
+h2 {
+	color: #181818;
+	font-family: Lato, sans-serif;
+}
+
+h3 {
+	color: #1d1d1d;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+	color: #343131;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h5 {
+	color: #464545;
 	font-family: Roboto, sans-serif;
+}
+
+h6 {
+	color: #070101;
+	font-family: Raleway, sans-serif;
 }
 
 p {
